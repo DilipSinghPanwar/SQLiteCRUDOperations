@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etOldName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:hint="Enter Old Name"
+        android:inputType="textPersonName">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etOldName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/etOldName"
+        android:layout_marginBottom="136dp"
+        android:text="UPDATE NAME" />
+
+    <EditText
+        android:id="@+id/etNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etOldName"
+        android:layout_alignRight="@+id/etOldName"
+        android:layout_below="@+id/etOldName"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Enter New Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvSnackBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

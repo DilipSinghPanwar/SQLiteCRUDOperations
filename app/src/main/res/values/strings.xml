@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SQLite CRUD</string>
+    <string name="action_settings">Settings</string>
+    <string name="create">CREATE</string>
+    <string name="read">READ</string>
+    <string name="delete">DELETE</string>
+    <string name="insert_value">INSERT VALUE</string>
+    <string name="delete_id">DELETE USING ID</string>
+    <string name="delete_name">DELETE USING NAME</string>
+    <string name="delete_allrow">DELETE ALL ROW</string>
+    <string name="read_alldata">READ ALL DATA FROM TABLE</string>
+    <string name="read_id">READ DATA USING ID</string>
+    <string name="read_rowcount">DISPLAY TOTAL NUMBER OF ROWS</string>
+    <string name="drop_table">DROP TABLE</string>
+    <string name="update_name">UPDATE NAME</string>
+    <string name="update_email">UPDATE EMAIL</string>
+    <string name="update">UPDATE</string>
+    <string name="update_id">UPDATE USING ID</string>
+</resources>
